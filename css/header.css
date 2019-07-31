@@ -16,11 +16,24 @@
 
 .nav {
   background-color: gray;
-  color: whitesmoke;
+  list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-.nav a {
+.nav li a {
+  display: block;
   padding: 1em;
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  background-color: #555;
+  color: whitesmoke;
+}
+
+.active {
+  background-color: #550;
+  color: whitesmoke;
 }
