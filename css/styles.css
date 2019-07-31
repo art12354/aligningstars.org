@@ -1,11 +1,30 @@
 * {
   box-sizing: border-box;
 }
+
 html, body {
   margin: 0;
   padding: 0;
   background-color: whitesmoke;
 }
+
+body {
+  display: grid;
+  grid-template-areas:
+    'header'
+    'main'
+    'footer';
+}
+
+header {
+  grid-area: header;
+}
+
 main {
+  grid-area: main;
   color: gray;
+}
+
+footer {
+  grid-area: footer;
 }
