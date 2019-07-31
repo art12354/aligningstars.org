@@ -1,7 +1,15 @@
 <link rel="stylesheet" href="css/header.css">
-<div class="TopNav">
-  <a href="#!">home</a>
-  <a href="#!red">red</a>
-  <a href="#!green">green</a>
-  <a href="#!blue">blue</a>
+<div class="HeaderContainer" ng-controller="HeaderController">
+  <div class="logo"></div>
+  <div class="TopNav" ng-show="nav">
+    <a href="#!">home</a>
+    <a href="#!red">red</a>
+    <a href="#!green">green</a>
+    <a href="#!blue">blue</a>
+  </div>
+  <div class="button" ng-click="showNav()">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
 </div>

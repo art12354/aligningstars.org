@@ -15,4 +15,10 @@ app.config(function($routeProvider) {
       templateUrl: "html/views/home.html"
     });
 });
+app.controller("HeaderController", function($scope) {
+  $scope.nav = false;
+  $scope.showNav = function() {
+    $scope.nav = !$scope.nav;
+  };
+})
 console.log("hello world!");
