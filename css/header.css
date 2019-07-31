@@ -1,7 +1,6 @@
 .HeaderContainer {
   display: grid;
   grid-template-columns: auto auto;
-  grid-column-gap: 1em;
 }
 
 .NewHeader {
@@ -12,6 +11,7 @@
 
 .button {
   justify-self: end;
+  padding: 1 em;
 }
 
 .nav {
@@ -19,6 +19,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
+  transition: all linear 0.5s;
+}
+
+.ng-hide {
+  width: 0;
 }
 
 .nav li a {

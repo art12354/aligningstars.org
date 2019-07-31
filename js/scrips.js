@@ -1,5 +1,5 @@
 // angularjs
-var app = angular.module("body", ["ngRoute"]);
+var app = angular.module("body", ["ngRoute", "ngAnimate"]);
 app.config(function($routeProvider) {
   $routeProvider
     .when("/red", {
@@ -25,6 +25,9 @@ app.controller("HeaderController", function($scope) {
     else {
       document.getElementById("HeaderContainer").classList.remove("NewHeader");
     }
+  };
+  $scope.activeLink = function() {
+    // TODO when we have all the pages, have onclick actions that call this function to remap who has the active class
   };
 })
 console.log("hello world!");
