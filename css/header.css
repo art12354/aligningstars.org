@@ -6,6 +6,7 @@
 .logo {
 }
 .button {
+  justify-self: end;
 }
 .nav {
   background-color: gray;
