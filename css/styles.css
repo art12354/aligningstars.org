@@ -1,11 +1,11 @@
 * {
   box-sizing: border-box;
 }
-html {
+html, body {
   margin: 0;
   padding: 0;
 }
 main {
-  background-color: blue;
-  color: red;
+  background-color: whitesmoke;
+  color: gray;
 }
