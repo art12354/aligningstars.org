@@ -11,7 +11,7 @@
 
 .button {
   justify-self: end;
-  padding: 1 em;
+  padding: 1em;
 }
 
 .nav {
@@ -20,6 +20,7 @@
   margin: 0;
   padding: 0;
   transition: all linear 0.5s;
+  width: auto;
 }
 
 .ng-hide {
