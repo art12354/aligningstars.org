@@ -1,14 +1,20 @@
 .HeaderContainer {
   display: grid;
-  grid-template-columns: auto auto auto
+  grid-template-columns: auto auto
 }
 
-.logo {
+.NewHeader {
+  grid-template-columns: auto auto auto;
 }
+
+.logo {}
+
 .button {
   justify-self: end;
 }
+
 .nav {
   background-color: gray;
   color: whitesmoke;
+  a
 }

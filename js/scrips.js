@@ -19,6 +19,12 @@ app.controller("HeaderController", function($scope) {
   $scope.nav = false;
   $scope.showNav = function() {
     $scope.nav = !$scope.nav;
+    if ($scope.nav == true) {
+      document.getElementById("HeaderContainer").classList.add("NewHeader");
+    }
+    else {
+      document.getElementById("HeaderContainer").classList.remove("NewHeader");
+    }
   };
 })
 console.log("hello world!");
