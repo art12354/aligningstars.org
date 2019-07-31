@@ -1,10 +1,22 @@
-.TopNav {
-  background-color: gray;
-  color: whitesmoke;
+.HeaderContainer {
+  display: grid;
+  grid-template-areas: logo button nav;
+}
+
+.logo {
+  grid-area: logo;
+}
+.button {
+  grid-area: button;
 }
 .button div {
   width: 35px;
   height: 5px;
   background-color: black;
   margin: 6px 0;
+}
+.nav {
+  grid-area: nav;
+  background-color: gray;
+  color: whitesmoke;
 }
