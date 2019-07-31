@@ -1,6 +1,7 @@
 .HeaderContainer {
+  position: fixed;
   display: grid;
-  grid-template-columns: auto auto minmax(0, 1fr);
+  grid-template-columns: 1fr 1fr min-content;
 }
 
 .NewHeader {
@@ -19,12 +20,11 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  transition: all linear 0.5s;
-  width: 100%;
+  transition: opacity 0.5s;
 }
 
 .ng-hide {
-  width: 0;
+  opacity: 0;
 }
 
 .nav li a {
