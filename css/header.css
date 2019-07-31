@@ -19,6 +19,7 @@
   margin: 0;
   padding: 0;
   transition: opacity 0.5s;
+  height: 100vh;
 }
 
 .ng-hide {
@@ -28,6 +29,7 @@
 .nav li a {
   display: block;
   padding: 1em;
+  padding-right: 2em;
   color: whitesmoke;
   text-decoration: none;
 }
