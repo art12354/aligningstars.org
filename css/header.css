@@ -3,6 +3,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr min-content;
+  font-size: 1.5em;
 }
 
 .logo {}
@@ -29,6 +30,7 @@
   padding: 1em;
   color: whitesmoke;
   text-decoration: none;
+  font-size: 3em;
 }
 
 .nav li a:hover {
