@@ -1,6 +1,6 @@
 .HeaderContainer {
   display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: auto auto minmax(0, 1fr);
 }
 
 .NewHeader {
