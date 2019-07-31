@@ -1,16 +1,13 @@
 .HeaderContainer {
   display: grid;
-  grid-template-areas: logo button nav;
+  grid-template-columns: auto auto auto
 }
 
 .logo {
-  grid-area: logo;
 }
 .button {
-  grid-area: button;
 }
 .nav {
-  grid-area: nav;
   background-color: gray;
   color: whitesmoke;
 }
