@@ -1,6 +1,7 @@
 .HeaderContainer {
   display: grid;
   grid-template-columns: auto auto;
+  grid-column-gap: 1em;
 }
 
 .NewHeader {
@@ -16,5 +17,10 @@
 .nav {
   background-color: gray;
   color: whitesmoke;
-  a
+  margin: 0;
+  padding: 0;
+}
+
+.nav a {
+  padding: 1em;
 }
