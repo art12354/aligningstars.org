@@ -1,6 +1,6 @@
 .HeaderContainer {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: auto auto auto;
 }
 
 .NewHeader {
@@ -20,7 +20,7 @@
   margin: 0;
   padding: 0;
   transition: all linear 0.5s;
-  width: auto;
+  width: 100%;
 }
 
 .ng-hide {
