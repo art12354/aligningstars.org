@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="css/header.css">
-<div id="HeaderContainer" class="HeaderContainer" ng-controller="HeaderController">
+<div id="HeaderContainer" class="HeaderContainer" data-ng-controller="HeaderController">
   <div class="logo fas fa-cloud"></div>
-  <div id="button" class="button fas fa-bars" ng-click="showNav()"></div>
-  <ul class="nav" ng-show="nav">
-    <li><a href="#!" ng-click="showNav()">home</a></li>
-    <li><a href="#!red" ng-click="showNav()">red</a></li>
-    <li><a href="#!green" ng-click="showNav()">green</a></li>
-    <li><a href="#!blue" ng-click="showNav()">blue</a></li>
+  <div id="button" class="button fas fa-bars" data-ng-click="showNav()"></div>
+  <ul class="nav" data-ng-show="nav">
+    <li><a href="#!" data-ng-click="showNav()">home</a></li>
+    <li><a href="#!red" data-ng-click="showNav()">red</a></li>
+    <li><a href="#!green" data-ng-click="showNav()">green</a></li>
+    <li><a href="#!blue" data-ng-click="showNav()">blue</a></li>
   </ul>
 </div>
-<script src="js/header.js"></script>
+<script src="/../../js/header.js"></script>
