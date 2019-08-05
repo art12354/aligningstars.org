@@ -1,6 +1,7 @@
 // HEADER
 app.controller("HeaderController", function($scope, $window) {
-  angular.element($window).bind("resize", function() {
+  angular.element($window).bind('resize', function() {
+    console.log("Hello world again!");
     if ($window.innerWidth > 992) {
       $scope.nav = true;
       $scope.button = false;
