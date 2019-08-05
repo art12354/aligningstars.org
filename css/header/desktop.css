@@ -1,7 +1,9 @@
 .HeaderContainer {
   grid-template-columns: min-content 1fr;
 }
-
+.logo {
+  font-size: 3em;
+}
 .nav {
   height: auto;
   display: grid;
