@@ -7,6 +7,9 @@ app.controller("HeaderController", function($scope) {
       document.getElementById("button").classList.remove("fa-bars");
       document.getElementById("button").classList.add("fa-times");
     }
+    else if (window.innderWidth > 992) {
+      
+    }
     else {
       document.getElementById("button").classList.remove("fa-times");
       document.getElementById("button").classList.add("fa-bars");
