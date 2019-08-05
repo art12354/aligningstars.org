@@ -1,6 +1,13 @@
 // HEADER
 app.controller("HeaderController", function($scope, $window) {
-  $scope.nav = false;
+  if ($window.innerWidth > 992) {
+    $scope.nav = true;
+    $scope.button = false;
+  }
+  else {
+    $scope.nav = false;
+    $scope.button = true;
+  }
   $scope.showNav = function() {
     if ($window.innerWidth < 992) {
       $scope.nav = !$scope.nav;
@@ -17,8 +24,4 @@ app.controller("HeaderController", function($scope, $window) {
   $scope.activeLink = function() {
     // TODO when we have all the pages, have onclick actions that call this function to remap who has the active class
   };
-  if ($window.innerWidth > 992) {
-    $scope.nav = true;
-    $scope.button = false;
-  }
 })
