@@ -4,14 +4,14 @@ app.controller("HeaderController", function($scope, $window) {
   $scope.showNav = function() {
     if ($window.innerWidth < 992) {
       $scope.nav = !$scope.nav;
-    }
-    if ($scope.nav == true) {
-      document.getElementById("button").classList.remove("fa-bars");
-      document.getElementById("button").classList.add("fa-times");
-    }
-    else {
-      document.getElementById("button").classList.remove("fa-times");
-      document.getElementById("button").classList.add("fa-bars");
+      if ($scope.nav == true) {
+        document.getElementById("button").classList.remove("fa-bars");
+        document.getElementById("button").classList.add("fa-times");
+      }
+      else {
+        document.getElementById("button").classList.remove("fa-times");
+        document.getElementById("button").classList.add("fa-bars");
+      }
     }
   };
   $scope.activeLink = function() {
