@@ -15,4 +15,8 @@ app.controller("HeaderController", function($scope) {
   $scope.activeLink = function() {
     // TODO when we have all the pages, have onclick actions that call this function to remap who has the active class
   };
+  if (window.innerWidth > 992) {
+    $scope.nav = true;
+    $scope.button = false;
+  }
 })
