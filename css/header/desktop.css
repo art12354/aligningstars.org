@@ -1,7 +1,9 @@
 .HeaderContainer {
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: min-content 1fr;
 }
 
 .nav {
   height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
